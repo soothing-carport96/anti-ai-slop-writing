@@ -4,7 +4,7 @@ A Claude Code skill (and universal SKILL.md) that forces any AI to produce human
 
 ## What It Does
 
-Every piece of text the AI produces — tweets, emails, articles, bios, reports, copy, messages — passes through constraints that eliminate the vocabulary, structure, punctuation, and formatting patterns that readers and detection tools flag as AI-generated.
+Every piece of text the AI produces — tweets, emails, articles, bios, reports, copy and message passes through constraints that eliminate the vocabulary, structure, punctuation, and formatting patterns that readers and detection tools flag as AI-generated.
 
 Based on research from Carnegie Mellon (2025), Wikipedia's Signs of AI Writing page, Buffer's 52M post analysis, and community detection patterns documented across X and Reddit.
 
